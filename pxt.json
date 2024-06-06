@@ -1,0 +1,29 @@
+{
+    "name": "巡軌車(專題)",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "MaqueenPlus": "github:dfrobot/pxt-dfrobot-maqueenplus#v1.5.1",
+        "pxt-cutebotpro": "github:elecfreaks/pxt-cutebot-pro#v1.0.55",
+        "maqueen": "github:dfrobot/pxt-maqueen#v1.7.2",
+        "Grove": "github:seeed-studio/pxt-grove#v0.6.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.0.28",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
